@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Randam Quotes</title>
+    <link rel="shortcut icon" href="IMGS/favicon.png" type="image/x-icon" />
+
+    <!-- ^ GOOGLE FONTS | Boldonse | Amatic SC | Covered By Your Grace -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Boldonse&family=Covered+By+Your+Grace&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ^ STYLE LINKS |-->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/media.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="main-bg">
+        <div class="container">
+          <!-- ~ HEADER-PART | S T A R T -->
+          <header class="header-part text-light text-capitalize">
+            <div class="d-flex justify-content-between pt-5 fw-light">
+              <span>quick</span>
+              <span>random</span>
+              <span>quotes</span>
+            </div>
+
+            <span>Quote of the Day</span>
+            <i class="fa-solid fa-font-awesome"></i>
+          </header>
+          <!-- ~ HEADER-PART |E N D -->
+          <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... -->
+          <!-- ~ TITLE-PART & CONTENT |S T A R T -->
+          <div class="title mt-5 pt-5 text-light">
+            <span>self reminder</span>
+            <h1>let's make it <span>positive</span></h1>
+          </div>
+          <!-- ~ TITLE-PART & CONTENT |E N D -->
+          <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... -->
+          <!-- ~ CARD-PART |S T A R T-->
+          <div class="quotes-container row g-5">
+            <div class="col-lg-6 col-sm-12">
+              <div class="content text-light">
+                <p>
+                  Today is a new opportunity—take small steps toward your big
+                  dreams with confidence!
+                </p>
+
+                <p class="text-uppercase">
+                  Embrace today with a positive mindset . . .
+                </p>
+
+                <button type="button" class="mt-4" onclick="getQuotes()">
+                  new quote
+                </button>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-ms-12">
+              <div class="quotes-card text-light p-3">
+                <div class="d-flex justify-content-between">
+                  <h2 class="text-capitalize mb-3">note for today</h2>
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+
+                <p id="quotes">
+                  Let’s take a moment to explore today’s quote and spark some
+                  inspiration. Ready to dive in?
+                </p>
+
+                <span id="author"></span>
+
+                <h3 id="hide">Simply press the NEW QUOTE BUTTON to begin!</h3>
+              </div>
+            </div>
+          </div>
+          <!-- ~ CARD-PART |E N D -->
+          <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... -->
+          <!-- ~ FOOTER-PART |S T A R T -->
+          <footer>
+            <div class="text-light d-flex justify-content-between">
+              <span>designed by | Nourhan Adel </span>
+              <span>2025</span>
+            </div>
+          </footer>
+          <!-- ~ FOOTER-PART |E N D -->
+        </div>
+      </section>
+    </main>
+
+    <!-- ^ JS LINKS | -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>

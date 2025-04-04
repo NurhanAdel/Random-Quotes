@@ -1,0 +1,198 @@
+/* ^ D R Y CONCEPT */
+:root {
+  --main-color: #ff6200;
+  --second-color: #91653c;
+}
+
+.container {
+  width: 75%;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+.main-bg {
+  height: 61.25rem;
+  background-image: linear-gradient(#000000aa, #000000aa),
+    url("../IMGS/main-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+/* ~ HEADER-PART |S T A R T  */
+.header-part > span {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: 0.625rem;
+  font-weight: 900;
+}
+
+.header-part div:first-child {
+  font-size: 18px;
+  font-family: "Amatic SC", sans-serif;
+  letter-spacing: 0.1875rem;
+}
+
+.header-part i {
+  font-size: 1.25rem;
+  color: var(--main-color);
+}
+/* ~ HEADER-PART |E N D  */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+/* ~ TITLE & CONTENT-PART |S T A R T  */
+.title h1 {
+  font-family: "Boldonse", system-ui;
+  position: relative;
+  text-transform: capitalize;
+  isolation: isolate;
+}
+
+.title h1::after {
+  content: " ";
+  width: 75%;
+  background-color: transparent;
+  border: 1px solid var(--second-color);
+  position: absolute;
+  left: 20%;
+  top: 100%;
+}
+
+.title h1::before {
+  content: " ";
+  width: 40%;
+  height: 75%;
+  background-color: var(--second-color);
+  position: absolute;
+  top: 0px;
+  left: -2.5rem;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.title h1 > span {
+  text-transform: uppercase;
+  color: var(--main-color);
+  letter-spacing: 0.4375rem;
+}
+/* ~ TITLE-PART & CONTENT |E N D  */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+/* ~ CARD-PART |S T A R T  */
+.content p {
+  max-width: 25rem;
+  padding-top: 0.625rem;
+}
+
+.content p + p {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 1.4375rem;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+}
+
+.content button {
+  width: 16.6875rem;
+  height: 3.75rem;
+  border: none;
+  border-left: 0.1875rem solid var(--second-color);
+  border-radius: 0.3125rem;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3125rem;
+  box-shadow: 3px 3px 20px #000;
+  transition: background-color 1s, border-left 500ms;
+}
+
+.content button:hover {
+  background-color: rgba(255, 98, 0, 0.8);
+  border-left: none;
+  box-shadow: inset 3px 3px 10px #00000075;
+}
+
+.quotes-card {
+  margin-top: 1.875rem;
+  position: relative;
+  isolation: isolate;
+}
+
+.quotes-card::after {
+  content: " ";
+  width: 25%;
+  height: 70%;
+  background-color: rgba(145, 101, 60, 0.6);
+  position: absolute;
+  top: 0rem;
+  right: -1.875rem;
+  z-index: -1;
+}
+
+.quotes-card i {
+  color: var(--main-color);
+}
+
+.quotes-card h3 {
+  font-size: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.quotes-card p {
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.quotes-card span {
+  display: block;
+  font-size: 0.875rem;
+  text-align: center;
+  letter-spacing: 0.1875rem;
+}
+
+/* ~ CARD-PART |E N D  */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+/* ~ FOOTER-PART |S T A R T  */
+footer {
+  position: absolute;
+  bottom: 0.625rem;
+  left: 2.5rem;
+  right: 3.75rem;
+}
+
+footer div {
+  flex-direction: column;
+  margin-top: 2.5rem;
+  margin-left: auto;
+  font-size: 0.8125rem;
+  font-family: "Covered By Your Grace", cursive;
+  text-transform: capitalize;
+  letter-spacing: 0.1875rem;
+  position: relative;
+}
+
+footer div::before {
+  content: " ";
+  width: 0.125rem;
+  height: 100%;
+  background-color: var(--second-color);
+  position: absolute;
+  bottom: 0rem;
+  left: -0.625rem;
+}
+
+footer div span:first-child {
+  position: relative;
+}
+
+footer div span:first-child::after {
+  content: " ";
+  width: 30%;
+  height: 0.0625rem;
+  background-color: var(--second-color);
+  position: absolute;
+  top: 50%;
+  left: 80%;
+}
+
+footer div span:last-child {
+  letter-spacing: 1.625rem;
+}
+/* ~ FOOTER-PART |E N D  */

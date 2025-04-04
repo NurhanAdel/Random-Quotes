@@ -1,0 +1,138 @@
+@media screen and (min-width: 576px) {
+  :root {
+    font-size: 0.6875rem;
+  }
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  .main-bg {
+    height: 59.375rem;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  /* ~ TITLE-PART |*/
+  .title h1 {
+    font-size: 3.125rem;
+    width: 70%;
+  }
+
+  .title h1 > span {
+    letter-spacing: 0.9375rem;
+  }
+
+  .title h1::after {
+    width: 85%;
+  }
+
+  .title p:last-child {
+    font-size: 1.875rem;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  /* ~ FOOTER-PART | */
+  footer div {
+    max-width: 28.125rem;
+  }
+
+  footer div span:first-child::after {
+    width: 40%;
+    left: 50%;
+  }
+}
+
+/* ^ ______________________________________________ */
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 0.875rem;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  /* ~ TITLE-PART |*/
+  .title h1::before {
+    width: 38%;
+  }
+}
+
+/* ^ ______________________________________________ */
+@media screen and (min-width: 992px) {
+  :root {
+    font-size: 0.875rem;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  .main-bg {
+    height: 100vh;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  /* ~ TITLE-PART |*/
+  .title h1::before {
+    width: 30%;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  /* ~ FOOTER-PART | */
+  footer {
+    right: 6.25rem;
+  }
+
+  footer div {
+    flex-direction: row;
+  }
+
+  footer div span:first-child::after {
+    left: 100%;
+  }
+}
+/* ^ ______________________________________________ */
+@media screen and (min-width: 1200px) {
+  :root {
+    font-size: 0.9375rem;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  .main-bg {
+    height: 40.625rem;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  /* ~ TITLE-PART |*/
+  .title h1::before {
+    width: 25%;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  /* ~ FOOTER-PART | */
+  footer {
+    right: 7.5rem;
+  }
+}
+/* ^ ______________________________________________ */
+@media screen and (min-width: 1400px) {
+  :root {
+    font-size: 1rem;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  .main-bg {
+    height: 100vh;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  /* ~ TITLE-PART |*/
+  .title h1 {
+    font-size: 4.0625rem;
+  }
+
+  .title h1 > span {
+    letter-spacing: 1.1875rem;
+  }
+
+  .title h1::before {
+    width: 28%;
+  }
+
+  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */
+  /* ~ FOOTER-PART | */
+  footer {
+    right: 9.375rem;
+  }
+}
