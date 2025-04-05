@@ -71,7 +71,7 @@
 .title h1 > span {
   text-transform: uppercase;
   color: var(--main-color);
-  letter-spacing: 0.4375rem;
+  letter-spacing: 0.5rem;
 }
 /* ~ TITLE-PART & CONTENT |E N D  */
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>... */

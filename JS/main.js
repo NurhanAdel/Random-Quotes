@@ -74,7 +74,7 @@ var quotesList = [
   },
 ];
 
-var curentQuoteAppear = null;
+var curentQuoteAppear = -1;
 
 function getQuotes() {
   var quoteNumber = Math.trunc(Math.random(quotesList) * quotesList.length);
